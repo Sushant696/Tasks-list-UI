@@ -58,7 +58,7 @@ list-style: none;
 padding: .4em;
 display: flex;
 justify-content: space-between;
-/* margin: .2rem; */
+margin: 0 .6rem; 
 border: 1px solid #999;
 }
 
