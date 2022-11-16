@@ -47,9 +47,7 @@ li.appendChild(link);
 
 // apend li to the ul  
  taskList.appendChild(li);
-
-  console.log(li.textContent)
-  // input.value= '';
+   input.value= '';
  e.preventDefault(); // prevent from submitting form 
 } // append child notes lekhnu xa vareyyyy  
 
@@ -103,6 +101,4 @@ function filterTasks (e)
 }
 
 // querySelectorAll returns node list not html collection list so we can directly use for loop without converting to array  
-
-// any how this filter ko logic voli bujnu chha okay 
 // matter of minutes  
